@@ -1,2 +1,2 @@
-# helicopter-game-jquery
-jQuery Helicopter Github
+# Helicopter Game jQuery
+jQuery Helicopter Github Live Demo

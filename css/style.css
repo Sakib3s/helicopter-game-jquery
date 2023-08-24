@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.button-area button {
+    background-color: #5b5bff;
+    color: #fff;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+    border: 1px solid #5b5bff;
+}
+
+.button-area button:hover {
+    background-color: #fff;
+    color: #5b5bff;
+}
+
+.main-area {
+    position: relative;
+    height: 90vh;
+}
+.button-area {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#helicopter {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 10%;
+}
+.main-area {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#helicopter, .right-img {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.left-img {
+    -webkit-transform: unset !important;
+    transform: unset !important;
+}
+
+.main-area h2 {
+    text-align: center;
+}
+
+.game-start {
+    background-color: #5b5bff;
+    max-width: 400px;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 300px;
+    border-radius: 10px;
+    color: #fff;
+}
